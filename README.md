@@ -1,12 +1,13 @@
-# Agent Prototype
+# Agent Prototype(early stages of development)
 
-An exploration into building autonomous AI agents from scratch using Python and ReAct (Reasoning and Acting) prompting techniques.
+Hey I'm Angel this is an exploration into building autonomous AI agents from scratch using Python and ReAct (Reasoning and Acting) prompting techniques.
+Hope yall get some value out of the completed project. If you're here early follow along as I will be adding to this until completed.
 
 ## Project Overview
 
-This repository contains my implementation of autonomous AI agents following a hands-on learning approach. The project focuses on understanding the core concepts of AI agent architecture and ReAct prompting patterns.
+This repository contains my implementation of autonomous AI agents following a hands-on learning approach. The project focuses on understanding the core concepts of AI agent architecture and ReAct prompting patterns. I also plan on dockerizing this project in the future.
 
-## Repository Structure
+## Repository Structure(so far)
 
 ```
 agent_prototype/
@@ -29,8 +30,8 @@ agent_prototype/
 2. **Set up virtual environment**
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-                              # In my case: .venv/bin/activate.fish
+   source .venv/bin/activate  # In my case: .venv/bin/activate.fish
+                              # On Windows: .venv\Scripts\activate
    ```
 
 3. **Install dependencies**
