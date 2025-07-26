@@ -9,7 +9,7 @@ load_dotenv()
 openai_client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 
-def generate_text_basic(prompt: str, model = 'ai-model', system_prompt: str='You are a helpful AI assistant'):
+def generate_text_basic(prompt: str, model = 'gpt-4.1-nano', system_prompt: str='You are a helpful AI assistant'):
     """
     Generates text based on prompt, ai model, and system prompt.
     Notice the parameters are static, this keeps the code straight forward and scaleable.
